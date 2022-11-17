@@ -96,8 +96,11 @@ The TimingSimpleCPU is the version of SimpleCPU that uses timing memory accesses
 
 ~We expect that MinorCPU will be significantly faster than TimingSimpleCPU, because Minor uses pipeline for instruction executions, meaning it doesn’t need to stall waiting for memory accesses.
 
-a)
+---
 
+Script: ssort.c
+
+a)
 
 |<p>CPU clock = 1GHz</p><p>RAM = DDR3\_1600\_8x8</p>|Execution Time|
 | :- | :- |
