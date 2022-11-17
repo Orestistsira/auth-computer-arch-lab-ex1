@@ -1,4 +1,4 @@
-﻿**COMPUTER ARCHITECTURE**
+**COMPUTER ARCHITECTURE**
 
 ` `**LAB-1**
 
@@ -21,7 +21,7 @@
 
 
 
-\2) Validation of information from config.ini and config.json 
+2) Validation of information from config.ini and config.json 
 
 a)
 
@@ -87,7 +87,7 @@ The misses of L1 cache go to L2 cache as accesses except those found in mshr, be
 
 
 
-\3)
+3)
 
 MinorCPU:
 
