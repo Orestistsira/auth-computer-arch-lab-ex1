@@ -5,8 +5,8 @@
 *Tsirakis Orestis (AEM: 9995)*
 
 *Kogia Iliana (AEM: 10090)*
-
 \
+
 1) Basic Parameters of Simulation System - script: Hello World
 
 
