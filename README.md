@@ -1,19 +1,7 @@
-<p align="center">
 **COMPUTER ARCHITECTURE**
-</p>
-
-<p align="center">
 **LAB-1**
-</p>
-
-<p align="center">
 *Tsirakis Orestis (AEM: 9995)*
-</p>
-
-<p align="center">
-
 *Kogia Iliana (AEM: 10090)*
-</p>
 
 1) Basic Parameters of Simulation System - script: Hello World
 
