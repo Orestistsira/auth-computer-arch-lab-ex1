@@ -1,9 +1,16 @@
 <p align="center">
 **COMPUTER ARCHITECTURE**
+</p>
 
+<p align="center">
 **LAB-1**
+</p>
 
+<p align="center">
 *Tsirakis Orestis (AEM: 9995)*
+</p>
+
+<p align="center">
 
 *Kogia Iliana (AEM: 10090)*
 </p>
@@ -64,7 +71,7 @@ d)
 
 L2 Cache: Overall Accesses = 474
 
-|system.cpu\_cluster.l2.overall\_accesses::.cpu\_cluster.cpus.inst|` `327|# number of overall (read+write) accesses|
+|system.cpu\_cluster.l2.overall\_accesses::.cpu\_cluster.cpus.inst|327|# number of overall (read+write) accesses|
 | :- | :- | :- |
 |system.cpu\_cluster.l2.overall\_accesses::.cpu\_cluster.cpus.data|147|# number of overall (read+write) accesses|
 |system.cpu\_cluster.l2.overall\_accesses::total|474  |# number of overall (read+write) accesses|
@@ -74,10 +81,10 @@ L2 Cache: Overall Accesses = 474
 
 L1 Cache: Overall Misses = 504
 
-|system.cpu\_cluster.cpus.dcache.overall\_misses::total      	                 |177|` `# number of overall misses|
+|system.cpu\_cluster.cpus.dcache.overall\_misses::total      	                 |177|# number of overall misses|
 | :- | :- | :- |
 |<p>system.cpu\_cluster.cpus.icache.overall\_misses::total          	</p><p></p>|327|# number of overall misses|
-|system.cpu\_cluster.cpus.dcache.overall\_mshr\_hits::total       	                 |30|<p>` `# number of overall MSHR hits (not going to l2 because we are already waiting for the result)</p><p></p>|
+|system.cpu\_cluster.cpus.dcache.overall\_mshr\_hits::total       	                 |30|<p># number of overall MSHR hits (not going to l2 because we are already waiting for the result)</p><p></p>|
 
 
 MSHR = missed status holding registers
@@ -137,7 +144,7 @@ c)
 ~For the same RAM type, when we double the CPU frequency the execution time drops to half as exptected.
 
 
-|<p>CPU clock = 1GHz</p><p>` `RAM = DDR4\_2400\_16x4</p><p></p>|Execution Time|
+|<p>CPU clock = 1GHz</p><p>RAM = DDR4\_2400\_16x4</p><p></p>|Execution Time|
 | :- | :- |
 |MinorCPU|<p>0.010282s = 10.282ms</p><p></p>|
 |TimingSimpleCPU|<p>0.029522s = 29.522ms</p><p></p>|
