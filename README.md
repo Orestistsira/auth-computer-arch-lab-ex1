@@ -20,7 +20,7 @@
 |Memory Size|2GB|<p>parser.add\_argument("--mem-size", action="store", type=str, default="2GB", …)</p><p></p>|
 |Caches|<p>L1 (L1I, L1D)</p><p>L2</p>|"minor" : (MinorCPU, devices.L1I, devices.L1D, devices.WalkCache, devices.L2)|
 
-
+---
 \
 2) Validation of information from config.ini and config.json 
 
@@ -74,6 +74,7 @@ Overall Misses of L1 – MSHR Hits of L1 = 504 - 30 = 474 = Overall Acceses of L
 
 The misses of L1 cache go to L2 cache as accesses except those found in mshr, because the data are already searched and coming to L1.
 
+---
 \
 3)
 
@@ -133,7 +134,7 @@ c)
 \
 ~For the same CPU frequency, when we alter the RAM type we do not observe any significant change, because the program we run is not memory intensive and does not have many memory accesses.
 
-\
+---
 \
 Κριτική εργαστηρίου: Θεωρούμε ότι το πρώτο εργαστήριο αποτελεί μία καλή αφετηρία για τον εξομοιωτή gem5. Είναι αρκετά επεξηγηματικό ως προς τα ζητούμενα και τη γενική χρησιμότητα του gem5, βέβαια υπήρξε μια αρχική δυσκολία στην εύρεση των αποτελεσμάτων στα αρχεία. Στη συνέχεια με την εξοικείωση με το πρώτο script (hello world) η εύρεση των παραμέτρων για το δεύτερο script (ssort) έγινε αρκετά πιο εύκολη και οικεία. 
 
