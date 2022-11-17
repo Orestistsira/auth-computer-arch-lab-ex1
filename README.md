@@ -1,3 +1,5 @@
+# auth-computer-arch-lab
+
 **COMPUTER ARCHITECTURE**
 
 **LAB-1**
