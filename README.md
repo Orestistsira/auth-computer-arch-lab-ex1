@@ -6,6 +6,7 @@
 
 *Kogia Iliana (AEM: 10090)*
 
+\
 1) Basic Parameters of Simulation System - script: Hello World
 
 
@@ -19,7 +20,7 @@
 |Caches|<p>L1 (L1I, L1D)</p><p>L2</p>|"minor" : (MinorCPU, devices.L1I, devices.L1D, devices.WalkCache, devices.L2)|
 
 
-
+\
 2) Validation of information from config.ini and config.json 
 
 a)
@@ -28,22 +29,12 @@ a)
 | :- | :- |
 |CPU type|<p>[system.cpu\_cluster.cpus]</p><p>type=MinorCPU</p>|
 
-
-
-
-
-
-
-
 b)
-
 
 |sim\_seconds |0.000035 |# Number of seconds simulated|
 | :- | :- | :- |
 |sim\_insts                                                         	|5027  |# Number of instructions simulated (Count)|
 |host\_inst\_rate |13049 |# Simulator instruction rate (inst/s)(Count/Second) |
-
-
 
 c) Total number of “committed” instructions
 
@@ -55,8 +46,6 @@ Some instructions are executed but not completed due to speculation of instructi
 all completed = 5027
 
 all completed + speculative instructions = 5831
-
-
 
 d)
 
@@ -84,8 +73,7 @@ Overall Misses of L1 – MSHR Hits of L1 = 504 - 30 = 474 = Overall Acceses of L
 
 The misses of L1 cache go to L2 cache as accesses except those found in mshr, because the data are already searched and coming to L1.
 
-
-
+\
 3)
 
 MinorCPU:
@@ -132,6 +120,7 @@ c)
 |MinorCPU|<p>0.002594s = 2.594ms</p><p></p>|
 |TimingSimpleCPU|<p>0.007402s = 7.402ms</p><p></p>|
 
+\
 ~For the same RAM type, when we double the CPU frequency the execution time drops to half as exptected.
 
 
@@ -140,6 +129,7 @@ c)
 |MinorCPU|<p>0.010282s = 10.282ms</p><p></p>|
 |TimingSimpleCPU|<p>0.029522s = 29.522ms</p><p></p>|
 
+\
 ~For the same CPU frequency, when we alter the RAM type we do not observe any significant change, because the program we run is not memory intensive and does not have many memory accesses.
 
 \
