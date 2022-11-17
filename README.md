@@ -143,6 +143,8 @@ c)
 ~For the same CPU frequency, when we alter the RAM type we do not observe any significant change, because the program we run is not memory intensive and does not have many memory accesses.
 
 
+
+
 Κριτική εργαστηρίου: Θεωρούμε ότι το πρώτο εργαστήριο αποτελεί μία καλή αφετηρία για τον εξομοιωτή gem5. Είναι αρκετά επεξηγηματικό ως προς τα ζητούμενα και τη γενική χρησιμότητα του gem5, βέβαια υπήρξε μια αρχική δυσκολία στην εύρεση των αποτελεσμάτων στα αρχεία. Στη συνέχεια με την εξοικείωση με το πρώτο script (hello world) η εύρεση των παραμέτρων για το δεύτερο script (ssort) έγινε αρκετά πιο εύκολη και οικεία. 
 
 
