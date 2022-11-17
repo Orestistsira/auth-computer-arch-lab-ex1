@@ -1,6 +1,6 @@
 **COMPUTER ARCHITECTURE**
 
-` `**LAB-1**
+**LAB-1**
 
 *Tsirakis Orestis (AEM: 9995)*
 
@@ -13,7 +13,7 @@
 |CPU type|Minor CPU|parser.add\_argument("--cpu", type=str, choices=cpu\_types.keys(), default="atomic", …)|
 | :- | :- | :- |
 |CPU frequency|1GHz|<p>parser.add\_argument("--cpu-freq", type=str, default="1GHz")</p><p></p>|
-|CPU cores|` `1|<p>parser.add\_argument("--num-cores", type=int, default=1, …)</p><p></p>|
+|CPU cores|1|<p>parser.add\_argument("--num-cores", type=int, default=1, …)</p><p></p>|
 |Memory Type|DDR3\_1600\_8x8|<p>parser.add\_argument("--mem-type", default="DDR3\_1600\_8x8", …)</p><p></p>|
 |Memory Channels|2|<p>parser.add\_argument("--mem-channels", type=int, default=2, …)</p><p></p>|
 |Memory Size|2GB|<p>parser.add\_argument("--mem-size", action="store", type=str, default="2GB", …)</p><p></p>|
