@@ -111,7 +111,7 @@ a)
 
 b)
 
-As we expected MinorCPU is faster than TimingSimpleCPU with the same CPU clock and RAM.
+As we expected MinorCPU is faster than TimingSimpleCPU with the same CPU clock and RAM, because as mentioned above Minor uses pipeline for instruction executions.
 
 c)
 
