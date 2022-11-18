@@ -96,7 +96,7 @@ TimingSimpleCPU:
 
 The TimingSimpleCPU is the version of SimpleCPU that uses timing memory accesses. It stalls on cache accesses and waits for the memory system to respond prior to proceeding. Like the AtomicSimpleCPU, the TimingSimpleCPU is also derived from BaseSimpleCPU, and implements the same set of functions. It defines the port that is used to hook up to memory, and connects the CPU to the cache. It also defines the necessary functions for handling the response from memory to the accesses sent out.
 
-~We expect that MinorCPU will be significantly faster than TimingSimpleCPU, because Minor uses pipeline for instruction executions, meaning it doesn’t need to stall waiting for memory accesses.
+~We expect that MinorCPU will be significantly faster than TimingSimpleCPU, because Minor uses pipeline for instruction executions, meaning it doesn’t need to stall other instructions while calculating result or waiting for memory accesses.
 
 ---
 
