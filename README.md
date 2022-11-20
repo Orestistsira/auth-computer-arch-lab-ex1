@@ -42,13 +42,13 @@ b)
 c) Total number of “committed” instructions
 
 - system.cpu\_cluster.cpus.committedInsts       	5027                   	# Number of instructions committed
-- system.cpu\_cluster.cpus.op\_class\_0: :total		5831			#Class of committed instruction (contains both speculative and non-speculative)
+- system.cpu\_cluster.cpus.op\_class\_0: :total		5831			#Class of committed instruction (contains both speculative and non-speculative plus some micro-operations)
 
 Some instructions are executed but not completed due to speculation of instructions ahead.
 
 all completed = 5027
 
-all completed + speculative instructions = 5831
+all completed + speculative instructions + micro-operations = 5831
 
 d)
 
