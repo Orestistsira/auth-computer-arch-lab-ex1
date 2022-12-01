@@ -1,4 +1,4 @@
-# auth-computer-arch-lab
+# auth-computer-arch-lab-ex1
 
 **COMPUTER ARCHITECTURE**
 
