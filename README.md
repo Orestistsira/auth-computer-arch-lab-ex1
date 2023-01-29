@@ -140,6 +140,7 @@ c)
 ~For the same CPU frequency, when we alter the RAM type we do not observe any significant change, because the program we run is not memory intensive and does not have many memory accesses.
 
 Referances:
+
 [https://www.gem5.org/](https://www.gem5.org/)
 
 ---
