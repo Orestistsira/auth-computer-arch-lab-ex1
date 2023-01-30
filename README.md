@@ -84,20 +84,33 @@ MinorCPU:
 
 Minor is an in-order processor model with a fixed pipeline but configurable data structures and execute behaviour. It is intended to be used to model processors with strict in-order execution behaviour and allows visualisation of an instruction’s position in the pipeline through the MinorTrace/minorview.py format/tool. The intention is to provide a framework for micro-architecturally correlating the model with a particular, chosen processor with similar capabilities.
 
-* Item
-* Item
+* Αn in-order processor model with a fixed pipeline but configurable data structures and execute behaviour.
+* Ιntended to be used to model processors with strict in-order execution behaviour and allows visualisation of an instruction’s position in the pipeline through the MinorTrace/minorview.py format/tool.
+* Provides a framework for micro-architecturally correlating the model with a particular, chosen processor with similar capabilities.
 
 SimpleCPU:
 
 The SimpleCPU is a purely functional, in-order model that is suited for cases where a detailed model is not necessary. This can include warm-up periods, client systems that are driving a host, or just testing to make sure a program works.
 
+* A purely functional, in-order model that is suited for cases where a detailed model is not necessary.
+* Cases include warm-up periods, client systems that are driving a host, or just testing to make sure a program works.
+
 AtomicSimpleCPU:
 
 The AtomicSimpleCPU is the version of SimpleCPU that uses atomic memory accesses. It uses the latency estimates from the atomic accesses to estimate overall cache access time. The AtomicSimpleCPU is derived from BaseSimpleCPU, and implements functions to read and write memory, and also to tick, which defines what happens every CPU cycle. It defines the port that is used to hook up to memory, and connects the CPU to the cache.
 
+* Is the version of SimpleCPU that uses atomic memory accesses.
+* Uses the latency estimates from the atomic accesses to estimate overall cache access time.
+* The AtomicSimpleCPU is derived from BaseSimpleCPU, and implements functions to read and write memory, and also to tick, which defines what happens every CPU cycle. It defines the port that is used to hook up to memory, and connects the CPU to the cache.
+
 TimingSimpleCPU:
 
 The TimingSimpleCPU is the version of SimpleCPU that uses timing memory accesses. It stalls on cache accesses and waits for the memory system to respond prior to proceeding. Like the AtomicSimpleCPU, the TimingSimpleCPU is also derived from BaseSimpleCPU, and implements the same set of functions. It defines the port that is used to hook up to memory, and connects the CPU to the cache. It also defines the necessary functions for handling the response from memory to the accesses sent out.
+
+* Is the version of SimpleCPU that uses timing memory accesses.
+* Stalls on cache accesses and waits for the memory system to respond prior to proceeding.
+* Like the AtomicSimpleCPU, the TimingSimpleCPU is also derived from BaseSimpleCPU, and implements the same set of functions. It defines the port that is used to hook up to memory, and connects the CPU to the cache. It also defines the necessary functions for handling the response from memory to the accesses sent out.
+
 
 ~We expect that MinorCPU will be significantly faster than TimingSimpleCPU, because Minor uses pipeline for instruction executions, meaning it doesn’t need to stall other instructions while calculating result or waiting for memory accesses.
 
